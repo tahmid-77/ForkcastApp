@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8FF98EF12DCCB01B00BD8ABB /* ForkcastApp */ = {
+		C8A853142DD4A249008EBF77 /* Forkcast */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ForkcastApp;
+			path = Forkcast;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		8FF98EE62DCCB01B00BD8ABB = {
 			isa = PBXGroup;
 			children = (
-				8FF98EF12DCCB01B00BD8ABB /* ForkcastApp */,
+				C8A853142DD4A249008EBF77 /* Forkcast */,
 				8FF98EF02DCCB01B00BD8ABB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8FF98EF12DCCB01B00BD8ABB /* ForkcastApp */,
+				C8A853142DD4A249008EBF77 /* Forkcast */,
 			);
 			name = ForkcastApp;
 			packageProductDependencies = (
@@ -82,6 +82,7 @@
 				TargetAttributes = {
 					8FF98EEE2DCCB01B00BD8ABB = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1630;
 					};
 				};
 			};
@@ -249,6 +250,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ForkcastApp/Assets.xcassets\"";
@@ -267,6 +269,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tahmid.ForkcastApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -277,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ForkcastApp/Assets.xcassets\"";
