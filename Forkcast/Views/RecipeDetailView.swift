@@ -1,3 +1,10 @@
+//
+//  RecipeDetailView.swift
+//  ForkcastApp
+//
+//  Created by Tahmid Ahmed on 8/5/2025.
+//
+
 import SwiftUI
 
 struct RecipeDetailView: View {
